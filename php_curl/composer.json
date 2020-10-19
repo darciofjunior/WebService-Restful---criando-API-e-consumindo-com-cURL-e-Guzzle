@@ -1,0 +1,17 @@
+{
+    "name": "darcios/php-client",
+    "description": "Cliente PHP Curl",
+    "authors": [
+        {
+            "name": "Darcio Junior",
+            "email": "darciofjunior81@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app",
+            "ETI\\" : "src/eti"
+        }
+    }
+}
